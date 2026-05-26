@@ -1,0 +1,13 @@
+{
+  "project": "",
+  "created": "",
+  "harness_version": "1.0",
+  "items": [
+    { "id": 1, "desc": "", "done": false, "priority": 1, "session": null, "note": "" }
+  ],
+  "rules": {
+    "iron_law": "编码 Agent 只能把 false 翻成 true，不许删除或修改条目",
+    "one_per_session": "每个会话只做一条 checklist 项",
+    "must_commit": "做完必须 git commit + 更新 progress.md + 翻转 done 状态"
+  }
+}
